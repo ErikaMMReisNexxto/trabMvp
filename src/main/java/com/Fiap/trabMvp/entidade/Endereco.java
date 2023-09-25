@@ -46,6 +46,8 @@ public class Endereco {
 
  
     // Construtor com todos os campos
+    public Endereco() {}    
+    
     public Endereco(String rua, int numero, String bairro, String cidade, String estado, int cep) {
         this.rua = rua;
         this.numero = numero;

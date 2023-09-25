@@ -29,6 +29,8 @@ public class Pagamento {
 
     @Column(name = "tipo_pagamento", length = 50)
     private String tipoPagamento;
+    
+    public Pagamento() {}
 
     public Pagamento(Long id, float valor, String tipoPagamento) {
         this.id = id;
